@@ -1,0 +1,105 @@
+@media (max-width:1425px) {
+
+    #header {
+        padding: 16px 3%;
+        transition: .3s;
+    }
+
+    #home {
+        height: auto;
+    }
+    
+    #header.sticky {
+        padding: 10px 3%;
+    }
+
+    section {
+        padding: 100px 3%;
+    }
+
+    #contact {
+        width: 95%;
+        transition: .3s;
+    }
+}
+
+@media (max-width:980px) {
+
+    #header .menu-bar {
+        display: block;
+    }
+
+    #home {
+        min-height: 70vh;
+        height: auto;
+    }
+
+    #header .nav-list {
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--main-color);
+        transition: .4s;
+    }
+
+    #header .nav-list a {
+        width: 100%;
+        float: right;
+        text-align: right;
+        padding: 19px;
+        margin: 24px;
+        color: #ffff;
+        border-right: 2px solid #fff;
+    }
+
+    #header .nav-list a:hover {
+        background: var(--bg-color);
+        color: var(--main-color);
+    }
+
+    #header .nav-list a::after {
+        display: none;
+    }
+}
+
+@media (max-width:740px) {
+
+    #header .download-btn {
+        padding: 5px 13px;
+    }
+
+    #header .logo a {
+        font-size: 1.5em;
+    }
+
+    section {
+        overflow-x: hidden;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    #home .my-img img {
+        width: 400px;
+        margin: 32px auto 0 auto;
+    }
+
+    #contact .container {
+        padding: 50px 50px;
+    }
+
+    #contact .container .form input[type="email"] {
+        max-width: 100%;
+        width: 300px;
+    }
+
+
+}
+
+#header .nav-list.active {
+    top: 100%;
+}
