@@ -352,55 +352,10 @@ section {
 }
 
 
-/* Portfolio Section */
-
-#portfolio .display-box {
-    position: relative;
-    margin-bottom: 32px;
-    cursor: pointer;
-}
-
-#portfolio .display-box img {
-    max-width: 100%;
-    width: 550px;
-    height: auto;
-    border-radius: 12px;
-    object-fit: cover;
-}
-
-#portfolio .display-box .layer {
-    position: absolute;
-    border-radius: 12px;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-
-#portfolio .display-box:hover .layer {
-    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, #191919);
-}
-
-#portfolio .display-box .info {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    color: var(--bg-color);
-    font-weight: 500;
-    opacity: 0;
-    transform: translateY(300%);
-    transition: ease 0.4s;
-}
-
-#portfolio .display-box:hover .info {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 
 /* Project Section */
 
-#project .service-box {
+#project .project-box {
     padding: 45px;
     border-radius: 12px;
     box-shadow: 0 0 30px rgba(244, 244, 244, 0.8);
@@ -409,12 +364,12 @@ section {
     transition: 0.4s;
 }
 
-#project .service-box:hover {
+#project .project-box:hover {
     transform: perspective(1000px) rotateX(4deg) rotateY(8deg) scale3d(1.05, 1.05, 1.05);
     box-shadow: 18px 0 80px 0px #ccc;
 }
 
-#project .service-box img {
+#project .project-box img {
     width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -423,47 +378,47 @@ section {
 }
 
 
-#project .service-box .anchor {
+#project .project-box .anchor {
     background-color: var(--main-color);
 }
 
-#project .service-box .physics {
+#project .project-box .physics {
     background: #baebcd;
 }
 
-#project .service-box .contact {
+#project .project-box .contact {
     background: #d9d1fa;
 }
 
-#project .service-box .web {
+#project .project-box .web {
     background: #faedce;
 }
 
-#project .service-box h3 {
+#project .project-box h3 {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 2px;
     color: var(--text-color);
 }
 
-#project .service-box h5 {
+#project .project-box h5 {
     font-size: 17px;
     font-weight: 500;
     margin-bottom: 19px;
     color: var(--text-color)
 }
 
-#project .service-box h5 span {
+#project .project-box h5 span {
     color: var(--main-color);
 }
 
-#project .service-box p {
+#project .project-box p {
     font-size: var(--p-font);
     line-height: 28px;
     color: var(--secound-color);
 }
 
-#project .service-box a {
+#project .project-box a {
     margin-top: 16px;
 }
 
