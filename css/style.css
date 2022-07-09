@@ -351,6 +351,76 @@ section {
     margin-bottom: 45px;
 }
 
+/* Work Section */
+#work .work-box {
+    padding: 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: rgb(244 244 244 / 80%) 0px 0px 30px;
+    margin-bottom: 32px;
+}
+
+#work .work-box:hover {
+    box-shadow: 18px 0 80px 0px #ccc;
+}
+
+#work .work-box img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+#work .work-tp img {
+    padding: 6px;
+    background: #a377d8f7;
+}
+
+#work .work-box h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+#work .work-tp h3 span {
+    color: #a377d8f7;
+}
+
+#work .work-wr h3 span {
+    color: #0083ca;
+}
+
+#work .work-box h4, 
+#work .work-box h5 {
+    display: inline-block;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+#work .work-box h4 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#work .work-box h5 {
+    color:var(--secound-color);
+    font-weight: 400;
+    margin-left: 12px;
+}
+
+#work .work-box .jd-box {
+    margin-bottom: 24px;
+}
+
+#work .work-box p {
+    color: var(--secound-color);
+}
+
+#work .work-box p::before {
+    content:"- ";
+}
+
 
 
 /* Project Section */
@@ -420,61 +490,6 @@ section {
 
 #project .project-box a {
     margin-top: 16px;
-}
-
-/* Work Section */
-#work .work-box {
-    padding: 30px;
-    border-radius: 12px;
-    cursor: pointer;
-    box-shadow: rgb(244 244 244 / 80%) 0px 0px 30px;
-    margin-bottom: 32px;
-}
-
-#work .work-box:hover {
-    box-shadow: 18px 0 80px 0px #ccc;
-}
-
-#work .work-box h3 {
-    font-size: 24px;
-    font-weight: 500;
-    color: var(--text-color);
-    line-height: 1.5;
-    margin-bottom: 24px;
-}
-
-#work .work-box h3 span {
-    color: #f75023;
-}
-
-#work .work-box h4, 
-#work .work-box h5 {
-    display: inline-block;
-    line-height: 1.5;
-    margin-bottom: 5px;
-}
-
-#work .work-box h4 {
-    font-size: 17px;
-    font-weight: 500;
-}
-
-#work .work-box h5 {
-    color:var(--secound-color);
-    font-weight: 400;
-    margin-left: 12px;
-}
-
-#work .work-box .jd-box {
-    margin-bottom: 24px;
-}
-
-#work .work-box p {
-    color: var(--secound-color);
-}
-
-#work .work-box p::before {
-    content:"- ";
 }
 
 

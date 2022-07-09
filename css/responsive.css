@@ -21,6 +21,11 @@
         width: 95%;
         transition: .3s;
     }
+
+    #work .work-box {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
 }
 
 @media (max-width:980px) {
@@ -63,6 +68,12 @@
     #header .nav-list a::after {
         display: none;
     }
+
+    #work .work-box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 @media (max-width:740px) {
