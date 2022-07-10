@@ -526,6 +526,34 @@ section {
     line-height: 28px;
 }
 
+#contact .container .contact-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .container .contact-form p {
+    margin: 0 32px 16px 32px;
+    color: #ffff;
+}
+
+#contact .container i {
+    color: var(--main-color);
+    font-size: 12px;
+}
+
+#contact .container a {
+    width: 24px;
+    height: 24px;
+    background: #ffff;
+    border-radius: 50%;
+    display: inline-flex;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+
 #contact .container .form {
     display: flex;
     align-items: center;
