@@ -526,14 +526,18 @@ section {
     line-height: 28px;
 }
 
-#contact .container .contact-form {
+/* #contact .container .contact-form {
     display: flex;
     justify-content: space-between;
-}
+} */
 
 #contact .container .contact-form p {
-    margin: 0 32px 16px 32px;
     color: #ffff;
+    text-align: center;
+}
+
+#contact .container .social-media {
+    text-align: center;
 }
 
 #contact .container i {
