@@ -391,6 +391,10 @@ section {
     color: #0083ca;
 }
 
+#work .work-out h3 span {
+    color: #f1912b;
+}
+
 #work .work-box h4, 
 #work .work-box h5 {
     display: inline-block;
@@ -413,6 +417,24 @@ section {
     margin-bottom: 24px;
 }
 
+#work .work-box .project {
+    padding-bottom: 16px;
+}
+
+#work .work-box .project .project-head span {
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+#work .work-box .project .project-head {
+    padding-left: 6px;
+}
+
+#work .work-box .project p {
+    padding-left: 10px;
+}
+
+
 #work .work-box p {
     color: var(--secound-color);
 }
@@ -421,6 +443,9 @@ section {
     content:"- ";
 }
 
+#work .work-box .project p::before {
+    content:none;
+}
 
 
 /* Project Section */
